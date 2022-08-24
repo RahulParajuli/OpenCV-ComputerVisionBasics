@@ -10,7 +10,7 @@ def rescaleFrame(frame, scale=0.75):
 
 capture = cv.VideoCapture("resources/videos/nature.MOV") # 0 is the id of the camera
 
-capture = cv.VideoCapture("resources/videos/nature.MOV") # 0 is the id of the camera
+# capture = cv.VideoCapture("resources/videos/nature.MOV") # 0 is the id of the camera
 while True:
   ret, frame = capture.read()
   frame_resized = rescaleFrame(frame)
@@ -19,4 +19,3 @@ while True:
   cv.imshow("resized",frame_resized)
   if cv.waitKey(1) & 0xFF == ord('q'):
     break
-  
