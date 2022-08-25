@@ -15,7 +15,24 @@ cv.waitKey(0)
 cv.destroyAllWindows()
 
 #dialating the images
-dilated = cv.dilate(canny, (7,7), iterations=1)
+dilated = cv.dilate(canny, (7,7), iterations=3)
 cv.imshow("dilated", dilated)
+cv.waitKey(0)
+
+#eroding the images
+eroded = cv.erode(dilated,(7,7), iterations=3)
+cv.imshow("eroded", eroded)
+cv.waitKey(0)
+cv.destroyAllWindows()
+
+#resize
+resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
+cv.imshow("resized", resized)
+cv.waitKey(0)
+cv.destroyAllWindows()
+
+#cropping
+cropped = resized[0:200, 0:200]
+cv.imshow("cropped", cropped)
 cv.waitKey(0)
 cv.destroyAllWindows()
