@@ -35,7 +35,7 @@ This folder contains drawing in a blank canvas or creating a bounding box in the
 
 1. Draw.
 
-## resources
+## Resources
 This folder contains images and video used for all the programs.
 
 1. Images.
