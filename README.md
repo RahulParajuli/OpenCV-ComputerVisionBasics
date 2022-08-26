@@ -2,6 +2,16 @@
 
 In this repository I will be contributing all the necessary tools with better code explanation regarding OpenCV and its application.
 
+## Color Spaces
+This folder contains most used image color spaces such as hue, gray, labs and blur.
+
+1. LAB color space
+<img height= 150px, width = 450px, src = "https://static.packt-cdn.com/products/9781789537147/graphics/assets/3a0096f4-9c14-46d0-9072-d67580776f3f.png">
+
+2. Grayscale
+
+<img height=150px width=350px src = "https://static.packt-cdn.com/products/9781789537147/graphics/assets/51b0d759-4ef7-47f8-9878-e5cd4468fcec.png">
+
 ## Image Transformations
 This folder contains all the image transformations related functions and libraries in OpenCV.
 
