@@ -4,7 +4,7 @@ import pandas as panda
 # Importing the OpenCV libraries  
 import cv2  
 
-# Importing the time module  
+# Importing the time module
 import time  
 
 # Importing the datetime function of the datetime module  
