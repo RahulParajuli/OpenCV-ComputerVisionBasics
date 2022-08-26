@@ -1,5 +1,7 @@
 #Color reading in reality is not the same as color reading in computer vision. The reason is that the human eye is not the same as the computer's. So we get different perspective of the same image plotted using matplotlib and opencv.
 
+#matplotlib takes the image as a numpy array and plots it. Opencv takes the image as a numpy array and plots it with BGR features.
+
 import cv2
 import matplotlib.pyplot as plt
 
