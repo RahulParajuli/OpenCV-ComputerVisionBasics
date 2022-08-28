@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+#reading image and splitting it into channels
 img = cv2.imread(
     "C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/dog2.jpg")
 
