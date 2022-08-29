@@ -8,11 +8,9 @@ img = cv2.imread(
 cv2.imshow("original", img)
 cv2.waitKey(0)
 
-
 blank = np.zeros(img.shape, np.uint8)
 cv2.imshow("blank", blank)
 cv2.waitKey(0)
-
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 cv2.imshow("gray", gray)
