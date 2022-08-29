@@ -12,7 +12,7 @@ circle = cv2.circle(blank.copy(), (img.shape[1]//2-200, img.shape[0]//2),100, 25
 
 mask = cv2.bitwise_or(rectangle, circle)
 
-cv2.imshow("mask", mask)
+# cv2.imshow("mask", mask)
 
 masked = cv2.bitwise_and(img, img, mask=mask)
 cv2.imshow("masked", masked)
