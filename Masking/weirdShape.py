@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/Resources/images/dog3.jpg")
+img = cv2.imread("/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog2.jpg")
 cv2.imshow("original", img)
 
 blank = np.zeros(img.shape[:2], dtype="uint8")
