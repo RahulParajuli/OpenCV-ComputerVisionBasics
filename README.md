@@ -177,6 +177,9 @@ Adaptive thresholding is the method where the threshold value is calculated for 
 Inverse-Binary Thresholding is just the opposite of Binary Thresholding. The destination pixel is set to: zero, if the corresponding source pixel is greater than the threshold. <br>
 <img height=350px width=600px src = "resources/results/inversethresh.png"><br>
 
+<b>3. SimpleThresholding </b> <br>
+Simple thresholding where we manually supply parameters to segment the image — this works extremely well in controlled lighting conditions where we can ensure high contrast between the foreground and background of the image. <br>
+<img height=350px width=600px src = "resources/results/simplethresholding.png"><br>
 
 
 ## happy coding.
