@@ -14,5 +14,4 @@ laplacian = np.uint8(np.absolute(laplacian))
 cv2.imshow("laplacian", laplacian)
 
 cv2.waitKey(0)
-
 cv2.destroyAllWindows()
