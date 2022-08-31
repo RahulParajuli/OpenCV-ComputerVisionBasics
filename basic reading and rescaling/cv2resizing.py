@@ -7,7 +7,7 @@ def rescaleFrame(frame, scale=0.75):
   dimentions = (width, height)
   return cv.resize(frame, dimentions, interpolation=cv.INTER_AREA)
 
-capture = cv.VideoCapture("C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/videos/nature.MOV") # 0 is the id of the camera
+capture = cv.VideoCapture("/home/drox/Documents/computervision/ComputerVisionExercise/resources/videos/nature.MOV") # 0 is the id of the camera
 
 def changeResolution(frame, width, height):
   #works only with live videos

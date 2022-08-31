@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/dog2.jpg")
+img = cv2.imread("/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog3.jpg")
 cv2.imshow("original", img)
 
 average = cv2.blur(img, (3,3))

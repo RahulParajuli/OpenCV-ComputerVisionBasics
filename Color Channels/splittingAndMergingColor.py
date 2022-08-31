@@ -3,7 +3,7 @@ import numpy as np
 
 #reading image and splitting it into channels
 img = cv2.imread(
-    "C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/dog2.jpg")
+    "/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog3.jpg")
 
 blank = np.zeros(img.shape[:2], dtype="uint8")
 

@@ -9,7 +9,7 @@ Checks distribution of colors in the image.
 import matplotlib.pyplot as plt
 import cv2
 
-img = cv2.imread("c:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/dog.jpg")
+img = cv2.imread("/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog4.jpg")
 cv2.imshow("original", img)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/rnr1.jpg")
+img = cv.imread("/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog3.jpg")
 cv.imshow("original", img)
 
 #translation

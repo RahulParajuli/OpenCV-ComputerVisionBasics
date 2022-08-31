@@ -2,12 +2,9 @@
 import cv2
 
 img = cv2.imread(
-    "C:/Users/batman/Desktop/mypractices/computer vision/ComputerVisionExercise/resources/images/rnr1.jpg")
+    "/home/drox/Documents/computervision/ComputerVisionExercise/resources/images/dog2.jpg")
 img = cv2.resize(img, (500, 500), interpolation=cv2.INTER_CUBIC)
 cv2.imshow('Original', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-
 
 def rotate(img, angle, rotPoint=None):
     (height, width) = img.shape[:2]
@@ -19,11 +16,9 @@ def rotate(img, angle, rotPoint=None):
 
 
 rotated = rotate(img, 90)
-cv2.imshow("rotated", rotated)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+cv2.imshow("rotated1", rotated)
 
 rotated = rotate(img, -90)
-cv2.imshow("rotated", rotated)
+cv2.imshow("rotated2", rotated)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
