@@ -61,12 +61,47 @@ It expresses color as three values: L* for perceptual lightness, and a* and b* f
 
 2. Grayscale<br>
 The grayscale image of the same size as a color image, made of just one of these primary colors. For instance, an image from a standard digital camera will have a red, green and blue channel. A grayscale image has just one channel.
-<img height=150px width=350px src = "resources/results/gray.png"> 
-<img height=150px width=350px src = "https://static.packt-cdn.com/products/9781789537147/graphics/assets/51b0d759-4ef7-47f8-9878-e5cd4468fcec.png">
+<img height=250px width=600px src = "resources/results/gray.png"> 
+<img height=250px width=600px src = "https://static.packt-cdn.com/products/9781789537147/graphics/assets/51b0d759-4ef7-47f8-9878-e5cd4468fcec.png">
 
 3. Hues <br>
 Hue refers to the dominant color family. Hue refers to the origin of the colors we can see. Primary and Secondary colors (Yellow, Orange, Red, Violet, Blue, and Green) are considered hues.
-<img height=150px width=350px src = "resources/results/hues.png">
+<img height=250px width=600px src = "resources/results/hues.png">
+
+4. LABtoBGR<br>
+Conversion of image with channel LAB to BGR.
+<img height=250px width=600px src = "resources/results/LABtobgr.png">
+
+5. bgrtorgb <br>
+Conversion of image with channel BGR to RGB.
+<img height=250px width=600px src = "resources/results/bgrtorgb.png">
+
+6. hsvtobgr <br>
+Conversion of images with channel HSV to BGR.
+<img height=250px width=600px src = "resources/results/hsvtoBGR.png">
+
+## Computing Histogram
+Histogram from matplotlib can clearly classify which color channel the image adapt. This program creates a frequency of all the color channel used in the image.
+
+1. colorhistogram
+Frequency of all the color present in the colored images.
+<img height=350px width=600px src = "resources/results/BGRhistogram.png">
+
+2. grayhistogram
+Frequency of the channel grayscale images.
+<img height=350px width=600px src = "resources/results/histogramgray.png">
+
+3. histogram masking
+This checks colors frequency of masked area.
+<img height=350px width=600px src = "resources/results/maskingregionhist.png">
+
+## Gradients and edges
+Every pixel inside the Gradient image represents the contrast intensity in the neighborhood of a pixel. It is used for image segmentation and edge detection.<br>
+Edge detection is an image-processing technique, which is used to identify the boundaries (edges) of objects, or regions within an image. Edges are among the most important features associated with images.
+
+1. absoluteLaplation
+
+
 
 ## Image Transformations
 This folder contains all the image transformations related functions and libraries in OpenCV.
