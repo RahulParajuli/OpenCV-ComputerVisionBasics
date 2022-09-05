@@ -10,6 +10,7 @@ lap = cv2.Laplacian(gray, cv2.CV_64F)
 lap = np.uint8(np.absolute(lap))
 cv2.imshow("lap", lap)
 
+
 sobelx = cv2.Sobel(gray, cv2.CV_64F, 1, 0)
 
 sobely = cv2.Sobel(gray, cv2.CV_64F, 0, 1)
