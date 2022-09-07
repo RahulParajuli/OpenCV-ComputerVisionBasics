@@ -5,6 +5,7 @@ img = cv2.imread("/home/drox/Documents/computervision/ComputerVisionExercise/res
 
 cv2.imshow("original", img)
 
+
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # absolute laplacian
